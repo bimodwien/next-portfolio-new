@@ -1,0 +1,20 @@
+[
+  {
+    "institution": "Purwadhika",
+    "degree": "Fullstack JavaScript Bootcamp",
+    "year": "2024",
+    "status": "Graduate"
+  },
+  {
+    "institution": "Hacktiv8",
+    "degree": "Fullstack JavaScript Bootcamp",
+    "year": "2020",
+    "status": "Graduate"
+  },
+  {
+    "institution": "Telkom University",
+    "degree": "Bachelor of Telecommunication Engineering",
+    "year": "2017",
+    "gpa": "3.01/4.00"
+  }
+]

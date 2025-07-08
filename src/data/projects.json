@@ -1,0 +1,55 @@
+[
+  {
+    "title": "TokoPaBimo",
+    "period": "Dec 2024 - Feb 2025",
+    "description": "Full-stack e-commerce application with modern architecture",
+    "tech": [
+      "Turborepo",
+      "Node.js",
+      "React.js",
+      "Express.ts",
+      "Next.ts",
+      "Prisma ORM",
+      "Tailwind CSS",
+      "shadcn"
+    ],
+    "github": "https://github.com/bimodwien/full-commerce-new",
+    "status": "In Development"
+  },
+  {
+    "title": "Next Gen Pokemon - PokeAPI",
+    "period": "Dec 2024",
+    "description": "Modern Pokemon explorer using PokeAPI with Next.js",
+    "tech": ["Next.js", "React", "Tailwind CSS", "Axios", "TypeScript"],
+    "github": "https://github.com/bimodwien/next-pokemon",
+    "link": "https://bimo-pokemon-next.vercel.app/",
+    "status": "Completed"
+  },
+  {
+    "title": "React Calculator",
+    "period": "Nov 2024",
+    "description": "Clean and responsive calculator built with React",
+    "tech": ["React.js", "Tailwind CSS"],
+    "github": "https://github.com/bimodwien/react-calc-new",
+    "link": "https://calculator-bimo.vercel.app/",
+    "status": "Completed"
+  },
+  {
+    "title": "Kanban Apps",
+    "period": "Sept 2024 - Oct 2024",
+    "description": "Task management application with drag-and-drop functionality",
+    "tech": ["Next.js", "Redux", "Node.js", "Express.js", "Prisma"],
+    "github": "https://github.com/bimodwien/kanban-2024",
+    "link": "https://kanban-bimo.vercel.app/",
+    "status": "Completed"
+  },
+  {
+    "title": "E-commerce Apps",
+    "period": "July 2024 - Aug 2024",
+    "description": "Full-featured e-commerce platform with payment integration",
+    "tech": ["Prisma", "Express.ts", "Next.ts", "Midtrans", "Google Maps API"],
+    "github": "https://github.com/bimodwien/JCWD2704-02",
+    "link": "https://jcwd270402.purwadhikabootcamp.com/",
+    "status": "Completed"
+  }
+]

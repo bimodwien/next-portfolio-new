@@ -1,0 +1,26 @@
+{
+  "languages": ["JavaScript", "HTML/CSS", "TypeScript"],
+  "backend": [
+    "Node.js",
+    "Express.js",
+    "Prisma",
+    "MySQL",
+    "Bcryptjs",
+    "JsonWebToken",
+    "Multer",
+    "Nodemailer"
+  ],
+  "frontend": [
+    "React.js",
+    "Next.js",
+    "Redux",
+    "Redux-Toolkit",
+    "Tailwind CSS",
+    "Formik",
+    "Yup",
+    "shadcn",
+    "Socket.io"
+  ],
+  "server": ["Cloud Computing (IaaS)", "On Premise"],
+  "os": ["Linux"]
+}
