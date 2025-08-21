@@ -46,6 +46,27 @@ const skillIconMap: Record<string, IconType> = {
   Cloudflare: SiCloudflare,
 };
 
+const skillColorMap: Record<string, string> = {
+  "Next.js": "#000000",
+  "React.js": "#61DAFB",
+  Tailwind: "#38BDF8",
+  Redux: "#764ABC",
+  "shadcn/ui": "#000000",
+  "Node.js": "#339933",
+  "Express.js": "#000000",
+  Prisma: "#2D3748",
+  MySQL: "#4479A1",
+  Docker: "#2496ED",
+  Nginx: "#009639",
+  "Cloudflare Tunnel": "#F38020",
+  "Github Actions": "#2088FF",
+  "Ubuntu Server": "#E95420",
+  Turborepo: "#000000",
+  Git: "#F05032",
+  Postman: "#FF6C37",
+  Cloudflare: "#F38020",
+};
+
 const allSkills: string[] = [
   ...skillsData.frontend,
   ...skillsData.backend,
@@ -66,15 +87,19 @@ const SkillSection = () => {
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4 justify-items-center">
             {allSkills.map((skill) => {
               const Icon = skillIconMap[skill] || FaServer;
+              const color = skillColorMap[skill] || "#CCCCCC";
               return (
                 <div key={skill} className="flex flex-col items-center group">
                   <span
-                    className="rounded-2xl bg-white/10 flex items-center justify-center mb-4 shadow-xl transition-all duration-300 group-hover:bg-white/20 group-focus:bg-white/20"
+                    className="rounded-2xl bg-white flex items-center justify-center mb-4 shadow-xl transition-all duration-300 group-hover:bg-white/20 group-focus:bg-white/20"
                     style={{ width: 112, height: 112 }}
                   >
-                    <Icon className="w-20 h-20 text-white transition-all duration-300 group-hover:text-white group-focus:text-white" />
+                    <Icon
+                      className="w-20 h-20 transition-all duration-300"
+                      color={color}
+                    />
                   </span>
-                  <span className="text-md text-gray-100 text-center mt-1 font-semibold transition-all duration-300 group-hover:text-blue-100 group-focus:text-blue-100">
+                  <span className="text-sm text-gray-100 text-center mt-1 font-semibold transition-all duration-300 group-hover:text-blue-100 group-focus:text-blue-100">
                     {skill}
                   </span>
                 </div>
