@@ -13,7 +13,7 @@ import educationData from "@/data/education.json";
 const EducationSection = () => {
   return (
     <>
-      <section className="py-16 bg-[#202020] text-white">
+      <section className="py-16 bg-[#292929] text-white">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="mx-auto">
             <h2 className="text-3xl font-bold text-center mb-12">Education</h2>
@@ -21,7 +21,7 @@ const EducationSection = () => {
               {educationData.map((edu, index) => (
                 <Card
                   key={index}
-                  className="bg-[#202020] border-white/20 text-white hover:bg-white/15 transition-all duration-300"
+                  className="bg-[#292929] border-white/20 text-white hover:bg-white/15 transition-all duration-300"
                 >
                   <CardHeader>
                     <CardTitle className="flex items-center text-lg">

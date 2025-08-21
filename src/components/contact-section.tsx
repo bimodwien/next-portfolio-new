@@ -6,7 +6,7 @@ import Link from "next/link";
 const ContactSection = () => {
   return (
     <>
-      <section id="contact" className="py-16 bg-[#202020] text-white">
+      <section id="contact" className="py-16 bg-[#2b2b2b] text-white">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="mx-auto text-center">
             <h2 className="text-3xl font-bold mb-8">Let&apos;s Connect</h2>
@@ -17,9 +17,9 @@ const ContactSection = () => {
             </p>
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
               <Link href="mailto:bimodwien2@gmail.com" className="block group">
-                <Card className="bg-[#202020] border-white/20 text-white transition-all duration-300 hover:bg-white/20 hover:scale-105 hover:shadow-xl cursor-pointer">
+                <Card className="bg-[#2b2b2b] border-white/20 text-white transition-all duration-300 hover:bg-white/20 hover:scale-105 hover:shadow-xl cursor-pointer">
                   <CardContent className="p-6 text-center">
-                    <Mail className="h-8 w-8 mx-auto mb-4 text-blue-200 transition-all duration-300 group-hover:text-white group-hover:scale-110" />
+                    <Mail className="h-8 w-8 mx-auto mb-4 text-white transition-all duration-300 group-hover:text-white group-hover:scale-110" />
                     <p className="text-sm mb-2 transition-colors duration-300 group-hover:text-blue-100">
                       Email
                     </p>
@@ -36,9 +36,9 @@ const ContactSection = () => {
                 rel="noopener noreferrer"
                 className="block group"
               >
-                <Card className="bg-[#202020] border-white/20 text-white transition-all duration-300 hover:bg-white/20 hover:scale-105 hover:shadow-xl cursor-pointer">
+                <Card className="bg-[#2b2b2b] border-white/20 text-white transition-all duration-300 hover:bg-white/20 hover:scale-105 hover:shadow-xl cursor-pointer">
                   <CardContent className="p-6 text-center">
-                    <Phone className="h-8 w-8 mx-auto mb-4 text-blue-200 transition-all duration-300 group-hover:text-white group-hover:scale-110" />
+                    <Phone className="h-8 w-8 mx-auto mb-4 text-white transition-all duration-300 group-hover:text-white group-hover:scale-110" />
                     <p className="text-sm mb-2 transition-colors duration-300 group-hover:text-blue-100">
                       WhatsApp
                     </p>
@@ -55,9 +55,9 @@ const ContactSection = () => {
                 rel="noopener noreferrer"
                 className="block group"
               >
-                <Card className="bg-[#202020] border-white/20 text-white transition-all duration-300 hover:bg-white/20 hover:scale-105 hover:shadow-xl cursor-pointer">
+                <Card className="bg-[#2b2b2b] border-white/20 text-white transition-all duration-300 hover:bg-white/20 hover:scale-105 hover:shadow-xl cursor-pointer">
                   <CardContent className="p-6 text-center">
-                    <Linkedin className="h-8 w-8 mx-auto mb-4 text-blue-200 transition-all duration-300 group-hover:text-white group-hover:scale-110" />
+                    <Linkedin className="h-8 w-8 mx-auto mb-4 text-white transition-all duration-300 group-hover:text-white group-hover:scale-110" />
                     <p className="text-sm mb-2 transition-colors duration-300 group-hover:text-blue-100">
                       LinkedIn
                     </p>
@@ -74,9 +74,9 @@ const ContactSection = () => {
                 rel="noopener noreferrer"
                 className="block group"
               >
-                <Card className="bg-[#202020] border-white/20 text-white transition-all duration-300 hover:bg-white/20 hover:scale-105 hover:shadow-xl cursor-pointer">
+                <Card className="bg-[#2b2b2b] border-white/20 text-white transition-all duration-300 hover:bg-white/20 hover:scale-105 hover:shadow-xl cursor-pointer">
                   <CardContent className="p-6 text-center">
-                    <Github className="h-8 w-8 mx-auto mb-4 text-blue-200 transition-all duration-300 group-hover:text-white group-hover:scale-110" />
+                    <Github className="h-8 w-8 mx-auto mb-4 text-white transition-all duration-300 group-hover:text-white group-hover:scale-110" />
                     <p className="text-sm mb-2 transition-colors duration-300 group-hover:text-blue-100">
                       GitHub
                     </p>

@@ -58,7 +58,7 @@
     "status": "Completed"
   },
   {
-    "title": "Todolist - exercise",
+    "title": "Todolist - Exercise",
     "period": "March 2024 - March 2024",
     "description": "Todolist application with user authentication and task management",
     "tech": ["React.js", "Redux", "Tailwind CSS"],

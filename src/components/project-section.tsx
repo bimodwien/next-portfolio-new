@@ -15,7 +15,7 @@ import projectsData from "@/data/projects.json";
 const ProjectSection = () => {
   return (
     <>
-      <section id="projects" className="py-16 bg-[#202020] text-white">
+      <section id="projects" className="py-16 bg-[#272727] text-white">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="mx-auto">
             <h2 className="text-3xl font-bold text-center mb-12">
@@ -25,7 +25,7 @@ const ProjectSection = () => {
               {projectsData.map((project, index) => (
                 <Card
                   key={index}
-                  className="bg-[#202020] border-white/20 text-white hover:bg-white/15 hover:shadow-lg transition-all duration-300"
+                  className="bg-[#272727] border-white/20 text-white hover:bg-white/15 hover:shadow-lg transition-all duration-300"
                 >
                   <CardHeader>
                     <div className="flex justify-between items-start">
@@ -40,13 +40,13 @@ const ProjectSection = () => {
                         {project.status}
                       </Badge>
                     </div>
-                    <CardDescription className="flex items-center text-sm text-gray-400">
+                    <CardDescription className="flex items-center text-sm text-white">
                       <Calendar className="mr-1 h-4 w-4" />
                       {project.period}
                     </CardDescription>
                   </CardHeader>
                   <CardContent>
-                    <p className="text-sm text-gray-300 mb-4">
+                    <p className="text-sm text-white mb-4">
                       {project.description}
                     </p>
                     <div className="flex flex-wrap gap-1 mb-4">
@@ -72,7 +72,7 @@ const ProjectSection = () => {
                       <Button
                         size="sm"
                         variant="outline"
-                        className="border-white/30 text-black hover:bg-white hover:text-black"
+                        className="border-white/30 text-black hover:bg-gray-200 hover:text-black"
                         asChild
                       >
                         <Link

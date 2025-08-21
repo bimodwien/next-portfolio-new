@@ -55,13 +55,25 @@ const HeroSection = () => {
                   <Button
                     size="lg"
                     variant="outline"
-                    className="bg-transparent border-white text-white hover:bg-white hover:text-blue-600"
+                    className="bg-transparent border-white text-white hover:bg-white hover:text-black"
                     asChild
                   >
-                    <Link href="#projects">
-                      <Code className="mr-2 h-5 w-5" />
-                      View Projects
-                    </Link>
+                    <a href="/CV_Bimo_Dwien_prabowo_2025.pdf" download>
+                      <svg
+                        className="mr-2 h-5 w-5"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth="2"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          d="M4 16v2a2 2 0 002 2h12a2 2 0 002-2v-2M7 10l5 5m0 0l5-5m-5 5V4"
+                        />
+                      </svg>
+                      Download CV
+                    </a>
                   </Button>
                 </div>
               </div>

@@ -1,26 +1,12 @@
 {
-  "languages": ["JavaScript", "HTML/CSS", "TypeScript"],
-  "backend": [
-    "Node.js",
-    "Express.js",
-    "Prisma",
-    "MySQL",
-    "Bcryptjs",
-    "JsonWebToken",
-    "Multer",
-    "Nodemailer"
+  "frontend": ["Next.js", "React.js", "Tailwind", "Redux", "shadcn/ui"],
+  "backend": ["Node.js", "Express.js", "Prisma", "MySQL"],
+  "devops": [
+    "Docker",
+    "Nginx",
+    "Cloudflare Tunnel",
+    "Github Actions",
+    "Ubuntu Server"
   ],
-  "frontend": [
-    "React.js",
-    "Next.js",
-    "Redux",
-    "Redux-Toolkit",
-    "Tailwind CSS",
-    "Formik",
-    "Yup",
-    "shadcn",
-    "Socket.io"
-  ],
-  "server": ["Cloud Computing (IaaS)", "On Premise"],
-  "os": ["Linux"]
+  "workflow_tools": ["Turborepo", "Git", "VSCode", "Postman", "Cloudflare"]
 }
