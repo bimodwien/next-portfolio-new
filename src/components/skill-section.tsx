@@ -7,17 +7,17 @@ import skillsData from "@/data/skills.json";
 const SkillSection = () => {
   return (
     <>
-      <section className="py-16 bg-white">
-        <div className="container mx-auto px-4">
-          <div className="max-w-6xl mx-auto">
+      <section className="py-16 bg-[#202020] text-white">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="mx-auto">
             <h2 className="text-3xl font-bold text-center mb-12">
               Technical Skills
             </h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-              <Card>
+              <Card className="bg-[#202020] border-white/20 text-white hover:bg-white/15 transition-all duration-300">
                 <CardHeader>
                   <CardTitle className="flex items-center">
-                    <Code className="mr-2 h-5 w-5 text-blue-600" />
+                    <Code className="mr-2 h-5 w-5 text-gray-300" />
                     Languages
                   </CardTitle>
                 </CardHeader>
@@ -32,10 +32,10 @@ const SkillSection = () => {
                 </CardContent>
               </Card>
 
-              <Card>
+              <Card className="bg-[#202020] border-white/20 text-white hover:bg-white/15 transition-all duration-300">
                 <CardHeader>
                   <CardTitle className="flex items-center">
-                    <Briefcase className="mr-2 h-5 w-5 text-green-600" />
+                    <Briefcase className="mr-2 h-5 w-5 text-gray-300" />
                     Backend
                   </CardTitle>
                 </CardHeader>
@@ -50,10 +50,10 @@ const SkillSection = () => {
                 </CardContent>
               </Card>
 
-              <Card>
+              <Card className="bg-[#202020] border-white/20 text-white hover:bg-white/15 transition-all duration-300">
                 <CardHeader>
                   <CardTitle className="flex items-center">
-                    <Code className="mr-2 h-5 w-5 text-purple-600" />
+                    <Code className="mr-2 h-5 w-5 text-gray-300" />
                     Frontend
                   </CardTitle>
                 </CardHeader>

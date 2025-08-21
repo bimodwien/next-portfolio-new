@@ -6,21 +6,18 @@ import Link from "next/link";
 const ContactSection = () => {
   return (
     <>
-      <section
-        id="contact"
-        className="py-16 bg-gradient-to-r from-blue-600 to-purple-700 text-white"
-      >
-        <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto text-center">
+      <section id="contact" className="py-16 bg-[#202020] text-white">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="mx-auto text-center">
             <h2 className="text-3xl font-bold mb-8">Let&apos;s Connect</h2>
-            <p className="text-lg mb-8 text-blue-100">
+            <p className="text-lg mb-8 text-gray-300">
               I&apos;m always interested in new opportunities and exciting
               projects. Feel free to reach out if you&apos;d like to work
               together!
             </p>
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
               <Link href="mailto:bimodwien2@gmail.com" className="block group">
-                <Card className="bg-white/10 border-white/20 text-white transition-all duration-300 hover:bg-white/20 hover:scale-105 hover:shadow-xl cursor-pointer">
+                <Card className="bg-[#202020] border-white/20 text-white transition-all duration-300 hover:bg-white/20 hover:scale-105 hover:shadow-xl cursor-pointer">
                   <CardContent className="p-6 text-center">
                     <Mail className="h-8 w-8 mx-auto mb-4 text-blue-200 transition-all duration-300 group-hover:text-white group-hover:scale-110" />
                     <p className="text-sm mb-2 transition-colors duration-300 group-hover:text-blue-100">
@@ -39,7 +36,7 @@ const ContactSection = () => {
                 rel="noopener noreferrer"
                 className="block group"
               >
-                <Card className="bg-white/10 border-white/20 text-white transition-all duration-300 hover:bg-white/20 hover:scale-105 hover:shadow-xl cursor-pointer">
+                <Card className="bg-[#202020] border-white/20 text-white transition-all duration-300 hover:bg-white/20 hover:scale-105 hover:shadow-xl cursor-pointer">
                   <CardContent className="p-6 text-center">
                     <Phone className="h-8 w-8 mx-auto mb-4 text-blue-200 transition-all duration-300 group-hover:text-white group-hover:scale-110" />
                     <p className="text-sm mb-2 transition-colors duration-300 group-hover:text-blue-100">
@@ -58,7 +55,7 @@ const ContactSection = () => {
                 rel="noopener noreferrer"
                 className="block group"
               >
-                <Card className="bg-white/10 border-white/20 text-white transition-all duration-300 hover:bg-white/20 hover:scale-105 hover:shadow-xl cursor-pointer">
+                <Card className="bg-[#202020] border-white/20 text-white transition-all duration-300 hover:bg-white/20 hover:scale-105 hover:shadow-xl cursor-pointer">
                   <CardContent className="p-6 text-center">
                     <Linkedin className="h-8 w-8 mx-auto mb-4 text-blue-200 transition-all duration-300 group-hover:text-white group-hover:scale-110" />
                     <p className="text-sm mb-2 transition-colors duration-300 group-hover:text-blue-100">
@@ -77,7 +74,7 @@ const ContactSection = () => {
                 rel="noopener noreferrer"
                 className="block group"
               >
-                <Card className="bg-white/10 border-white/20 text-white transition-all duration-300 hover:bg-white/20 hover:scale-105 hover:shadow-xl cursor-pointer">
+                <Card className="bg-[#202020] border-white/20 text-white transition-all duration-300 hover:bg-white/20 hover:scale-105 hover:shadow-xl cursor-pointer">
                   <CardContent className="p-6 text-center">
                     <Github className="h-8 w-8 mx-auto mb-4 text-blue-200 transition-all duration-300 group-hover:text-white group-hover:scale-110" />
                     <p className="text-sm mb-2 transition-colors duration-300 group-hover:text-blue-100">

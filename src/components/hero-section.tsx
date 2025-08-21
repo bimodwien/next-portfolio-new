@@ -7,15 +7,15 @@ import Image from "next/image";
 const HeroSection = () => {
   return (
     <>
-      <section className="relative bg-gradient-to-r from-blue-600 to-purple-700 text-white py-20">
+      <section className="relative bg-[#202020] text-white min-h-screen flex items-center py-20">
         <div className="container mx-auto px-4">
-          <div className="max-w-6xl mx-auto">
+          <div className="mx-auto px-4">
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div className="flex justify-center lg:justify-end order-1 lg:order-2">
                 <div className="relative">
                   <div className="w-80 h-80 md:w-96 md:h-96 rounded-full overflow-hidden border-8 border-white/20 shadow-2xl bg-white/10 backdrop-blur-sm">
                     <Image
-                      src="/prof-pic.jpg"
+                      src="/new-prof-pic.jpg"
                       alt="Bimo Dwien Prabowo - Software Developer"
                       width={384}
                       height={384}
@@ -37,11 +37,13 @@ const HeroSection = () => {
                   Software Developer
                 </p>
                 <p className="text-lg mb-8 leading-relaxed">
-                  Dedicated and passionate developer with expertise in web
-                  application development, specializing in Next.js and React.js.
-                  Experienced in backend management using Node.js with
-                  Express.js, I can build a strong foundation in creating
-                  efficient and scalable solutions.
+                  Fullstack Developer with experience in building end-to-end web
+                  applications using Next.js, React, Express.js, and Prisma ORM.
+                  Skilled in managing monorepo with Turborepo, deploying
+                  applications with Docker, Nginx, and Cloudflare Tunnel, and
+                  implementing CI/CD pipelines using GitHub Actions. Focused on
+                  delivering clean, functional, and production-ready
+                  applications.
                 </p>
                 <div className="flex flex-wrap justify-center lg:justify-start gap-4">
                   <Button size="lg" variant="secondary" asChild>

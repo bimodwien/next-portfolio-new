@@ -1,5 +1,17 @@
 [
   {
+    "company": "Self-Employed (Independent Project)",
+    "position": "Full Stack Developer",
+    "period": "September 2024 - Now",
+    "responsibilities": [
+      "Build and develop multiple full stack applications.",
+      "Designed and implemented RESTful APIs using Node.js, Express.js, and Prisma ORM.",
+      "Developed responsive front-end interfaces using Next.js, React, Tailwindcss, shadcn/ui and other modern frameworks.",
+      "Deployed projects using Docker, Nginx, Cloudflare Tunnel, and Ubuntu server.",
+      "Integrated CI/CD pipelines using GitHub Actions to streamline deployment."
+    ]
+  },
+  {
     "company": "PT. Link Net Tbk",
     "position": "Broadcast System Engineer",
     "period": "April 2021 - August 2023",
@@ -19,16 +31,6 @@
       "Planning & monitoring production capacity and technical product development",
       "Handle customer complaints regarding technical aspects",
       "Troubleshoot system problems and create testing reports"
-    ]
-  },
-  {
-    "company": "PT. Indosat Ooredoo Tbk",
-    "position": "Site Lease and Assurance Staff",
-    "period": "April 2018 - June 2020",
-    "responsibilities": [
-      "Register new site lease and claim assurance from customers across Indonesia",
-      "Monitor and verify new lease and claim assurance",
-      "Liaise with regional teams regarding leasing and claim assurance"
     ]
   }
 ]

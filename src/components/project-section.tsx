@@ -15,15 +15,18 @@ import projectsData from "@/data/projects.json";
 const ProjectSection = () => {
   return (
     <>
-      <section id="projects" className="py-16 bg-slate-50">
-        <div className="container mx-auto px-4">
-          <div className="max-w-6xl mx-auto">
+      <section id="projects" className="py-16 bg-[#202020] text-white">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="mx-auto">
             <h2 className="text-3xl font-bold text-center mb-12">
               Featured Projects
             </h2>
             <div className="grid md:grid-cols-2 gap-8">
               {projectsData.map((project, index) => (
-                <Card key={index} className="hover:shadow-lg transition-shadow">
+                <Card
+                  key={index}
+                  className="bg-[#202020] border-white/20 text-white hover:bg-white/15 hover:shadow-lg transition-all duration-300"
+                >
                   <CardHeader>
                     <div className="flex justify-between items-start">
                       <CardTitle className="text-xl">{project.title}</CardTitle>
@@ -37,29 +40,41 @@ const ProjectSection = () => {
                         {project.status}
                       </Badge>
                     </div>
-                    <CardDescription className="flex items-center text-sm text-muted-foreground">
+                    <CardDescription className="flex items-center text-sm text-gray-400">
                       <Calendar className="mr-1 h-4 w-4" />
                       {project.period}
                     </CardDescription>
                   </CardHeader>
                   <CardContent>
-                    <p className="text-sm text-muted-foreground mb-4">
+                    <p className="text-sm text-gray-300 mb-4">
                       {project.description}
                     </p>
                     <div className="flex flex-wrap gap-1 mb-4">
                       {project.tech.slice(0, 4).map((tech) => (
-                        <Badge key={tech} variant="outline" className="text-xs">
+                        <Badge
+                          key={tech}
+                          variant="outline"
+                          className="text-xs border-white/30 text-white"
+                        >
                           {tech}
                         </Badge>
                       ))}
                       {project.tech.length > 4 && (
-                        <Badge variant="outline" className="text-xs">
+                        <Badge
+                          variant="outline"
+                          className="text-xs border-white/30 text-white"
+                        >
                           +{project.tech.length - 4} more
                         </Badge>
                       )}
                     </div>
                     <div className="flex gap-2">
-                      <Button size="sm" variant="outline" asChild>
+                      <Button
+                        size="sm"
+                        variant="outline"
+                        className="border-white/30 text-black hover:bg-white hover:text-black"
+                        asChild
+                      >
                         <Link
                           href={project.github}
                           target="_blank"
@@ -70,7 +85,11 @@ const ProjectSection = () => {
                         </Link>
                       </Button>
                       {project.link && (
-                        <Button size="sm" asChild>
+                        <Button
+                          size="sm"
+                          className="bg-white text-black hover:bg-gray-200"
+                          asChild
+                        >
                           <Link
                             href={project.link}
                             target="_blank"
@@ -89,14 +108,12 @@ const ProjectSection = () => {
 
             {/* GitHub Link Section */}
             <div className="text-center mt-12">
-              <p className="text-muted-foreground mb-4">
-                Want to see more of my work?
-              </p>
+              <p className="text-gray-300 mb-4">Want to see more of my work?</p>
               <Button
                 size="lg"
                 variant="outline"
                 asChild
-                className="group bg-transparent"
+                className="group border-white/30 text-black hover:bg-white hover:text-black"
               >
                 <Link
                   href="https://github.com/bimodwien"

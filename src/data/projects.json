@@ -1,8 +1,8 @@
 [
   {
-    "title": "TokoPaBimo",
+    "title": "TokoPakBimo",
     "period": "Dec 2024 - Feb 2025",
-    "description": "Full-stack e-commerce application with modern architecture",
+    "description": "Fullstack E-commerce platform with authentication, product & image management.",
     "tech": [
       "Turborepo",
       "Node.js",
@@ -11,10 +11,33 @@
       "Next.ts",
       "Prisma ORM",
       "Tailwind CSS",
-      "shadcn"
+      "shadcn",
+      "Docker",
+      "Cloudflare Tunnel"
     ],
     "github": "https://github.com/bimodwien/full-commerce-new",
-    "status": "In Development"
+    "link": "https://tokopakbimo.web.id",
+    "status": "Completed"
+  },
+  {
+    "title": "Kanban Apps",
+    "period": "Sept 2024 - Oct 2024",
+    "description": "Fullstack kanban board application with drag-and-drop task management, automated CI/CD pipeline, and custom domain deployment.",
+    "tech": [
+      "Next.js",
+      "Redux",
+      "Node.js",
+      "Express.js",
+      "Prisma",
+      "Docker",
+      "Nginx",
+      "Tailwind CSS",
+      "shadcn/ui",
+      "Github Action"
+    ],
+    "github": "https://github.com/bimodwien/full-kanban-fix",
+    "link": "https://kanbanbimo.web.id/",
+    "status": "Completed"
   },
   {
     "title": "Next Gen Pokemon - PokeAPI",
@@ -35,19 +58,10 @@
     "status": "Completed"
   },
   {
-    "title": "Kanban Apps",
-    "period": "Sept 2024 - Oct 2024",
-    "description": "Task management application with drag-and-drop functionality",
-    "tech": ["Next.js", "Redux", "Node.js", "Express.js", "Prisma"],
-    "github": "https://github.com/bimodwien/kanban-2024",
-    "link": "https://kanban-bimo.vercel.app/",
-    "status": "Completed"
-  },
-  {
-    "title": "E-commerce Apps",
-    "period": "July 2024 - Aug 2024",
-    "description": "Full-featured e-commerce platform with payment integration",
-    "tech": ["Prisma", "Express.ts", "Next.ts", "Midtrans", "Google Maps API"],
+    "title": "Todolist - exercise",
+    "period": "March 2024 - March 2024",
+    "description": "Todolist application with user authentication and task management",
+    "tech": ["React.js", "Redux", "Tailwind CSS"],
     "github": "https://github.com/bimodwien/JCWD2704-02",
     "link": "https://jcwd270402.purwadhikabootcamp.com/",
     "status": "Completed"
