@@ -31,8 +31,8 @@ const Navbar = () => {
           </a>
           <div className="hidden md:flex space-x-8">
             <NavLink href="#home">Home</NavLink>
-            <NavLink href="#skills">Skills</NavLink>
             <NavLink href="#projects">Projects</NavLink>
+            <NavLink href="#skills">Skills</NavLink>
             <NavLink href="#work">Work</NavLink>
             <NavLink href="#education">Education</NavLink>
             <NavLink href="#contact">Contact</NavLink>
