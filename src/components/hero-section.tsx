@@ -1,6 +1,6 @@
 import React from "react";
 import { Button } from "./ui/button";
-import { Mail, Code } from "lucide-react";
+import { Mail } from "lucide-react";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -58,7 +58,7 @@ const HeroSection = () => {
                     className="bg-transparent border-white text-white hover:bg-white hover:text-black"
                     asChild
                   >
-                    <a href="/CV_Bimo_Dwien_prabowo_2025.pdf" download>
+                    <a href="/Bimo_Dwien_Prabowo_2025.pdf" download>
                       <svg
                         className="mr-2 h-5 w-5"
                         fill="none"
