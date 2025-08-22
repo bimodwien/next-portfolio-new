@@ -1,0 +1,28 @@
+# dependencies
+node_modules
+npm-debug.log
+.yarn
+.pnpm-store
+
+
+# next.js build
+.next
+out
+!.next/standalone
+!.next/static
+
+
+# logs
+logs
+*.log
+
+
+# env files
+.env*
+
+
+# misc
+Dockerfile*
+docker-compose*.yml
+.git
+.gitignore
