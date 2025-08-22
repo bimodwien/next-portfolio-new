@@ -91,7 +91,7 @@ const SkillSection = () => {
               return (
                 <div key={skill} className="flex flex-col items-center group">
                   <span
-                    className="rounded-2xl bg-white flex items-center justify-center mb-4 shadow-xl transition-all duration-300 group-hover:bg-white/20 group-focus:bg-white/20"
+                    className="rounded-2xl bg-[#232323] flex items-center justify-center mb-4 shadow-xl transition-all duration-300 group-hover:bg-white/20 group-focus:bg-white/20"
                     style={{ width: 112, height: 112 }}
                   >
                     <Icon
