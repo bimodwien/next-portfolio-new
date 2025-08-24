@@ -62,8 +62,8 @@
     "period": "March 2024 - March 2024",
     "description": "Todolist application with user authentication and task management",
     "tech": ["React.js", "Redux", "Tailwind CSS"],
-    "github": "https://github.com/bimodwien/JCWD2704-02",
-    "link": "https://jcwd270402.purwadhikabootcamp.com/",
+    "github": "https://github.com/bimodwien/todolist-exercise",
+    "link": "https://todolist-exercise.vercel.app/",
     "status": "Completed"
   }
 ]
